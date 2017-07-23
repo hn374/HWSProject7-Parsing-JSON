@@ -15,6 +15,8 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = "White House Petitions" 
+        
         let urlString: String
         
         if navigationController?.tabBarItem.tag == 0 {
